@@ -3,7 +3,7 @@ from datetime import datetime
 import calendar
 import os
 
-Host = "http://192.168.200.240:8080"
+Host = "host:porta"
 Empresas = ["Wiring", "Electronic"]
 Formas = ["entrada", "saida", "canceladas", "cte"]
 
