@@ -38,7 +38,7 @@ def GerarCaminhoCasoNaoExista(tipo, empresa, dt_ini, dt_fim):
     return pasta
 
 
-# ENTRADA
+#ENTRADA
 @app.get("/entrada/")
 def exportar_entrada(
         empresa: str = Query(..., description="Kabel ou Quantum"),
@@ -79,7 +79,7 @@ def exportar_entrada(
     return {"mensagem": f"{len(id_notas)} XMLs de entrada exportados", "id_notas": id_notas}
 
 
-# ------------------ ROTA SAÍDA ------------------
+#SAÍDA
 @app.get("/saida/")
 def exportar_saida(
         empresa: str = Query(..., description="Kabel ou Quantum"),
@@ -119,7 +119,7 @@ def exportar_saida(
     return {"mensagem": f"{len(id_notas)} XMLs de saída exportados", "id_notas": id_notas}
 
 
-# --------------------- ROTA CANCELADAS ---------------------------------------
+#CANCELADAS
 
 @app.get("/canceladas/")
 def exportar_saida(
@@ -160,7 +160,7 @@ def exportar_saida(
     return {"mensagem": f"{len(id_notas)} XMLs de saída cancelados exportados", "id_notas": id_notas}
 
 
-# --------------------- ROTA CTE ---------------------------------------
+#CTE
 
 @app.get("/cte/")
 def exportar_saida(
