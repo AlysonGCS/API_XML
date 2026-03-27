@@ -1,0 +1,11 @@
+{
+  "Wiring": {
+    "database": "Kabel"
+  },
+  "Electronic": {
+    "database": "Quantum"
+  },
+  "paths": {
+    "base_dir": "C:\\XMLS"
+  }
+}

@@ -1,0 +1,1 @@
+Essa API serve para exportar os arquivos XMLS na base de dados Kabel e Quantum, para funcionamento precisa agendar a task no servidor/maquina para executar dia 1 e 16 ou instalar via nssm um serviço que execute todo dia o .py VerificarDiadoMes que então irá gerar os xmls no caminho programado (obs caso queira alterar o caminho, precisa alterar direto no arquivo .py)
